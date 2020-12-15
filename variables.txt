@@ -1,0 +1,27 @@
+var food = "Chicken Alfredo";
+var isDelicious = true;
+
+food = "Sushi"
+
+var num2 = 3;
+var num7 = 10;
+
+var quotient = num7 / num2;
+
+console.log  (num7 / num2);
+
+//3.3333333333333335
+
+var songs = ["just be", "am 2 pm", "love never came"];
+
+console.log(songs.slice(1));
+
+//good search remove element in array
+//["am 2 pm", "love never came"]
+
+//ask how many characters are in food string
+var answer = window.prompt("how many characters are in the string food");
+document.write("there are" + answer);
+
+// google search string length
+ console.log(`${food} ${food.length}`);
