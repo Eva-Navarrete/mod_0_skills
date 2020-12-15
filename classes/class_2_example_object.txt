@@ -1,0 +1,17 @@
+Class: lunhMenu
+
+Attributes:
+menuType: "Mexican "
+foodChoice: ["Enchiladas", "Tacos", "Camarones a la Diabla"]
+drinkMenu : ["Margarita", "Pina Colada", "Beer"]
+happyHour: 2:30 - 4:30
+happyHourSpecial : false
+time : 3:45
+priceTotal : 85.27
+
+
+Methods:
+orderFood (calls on and element with the foodChoice array foodChoice = "enchiladas")
+checkTimeForDrinkSpecial (time = 3:45 happyHourSpecial= True )
+orderFromHappyHourDrinkMenu (happyHourSpecial= True calls an element from drinkMenu = "Beer")
+askForBill (priceTotal = 85.27)

@@ -1,0 +1,17 @@
+Class: Menus
+
+Attributes:
+menuType: (string)
+foodChoice: (array)
+drinkMenu : (array)
+price : (float)
+happyHour: (time)
+happyHourSpecial :boolean
+time (date&time)
+
+
+Methods:
+orderFood (calls upon foodChoice array)
+checkTimeForDrinkSpecial (calls on the happy hour time)
+orderFromHappyHourDrinkMenu (happyHourSpecial= True)
+askForBill (gives us the price of the food ordered)
