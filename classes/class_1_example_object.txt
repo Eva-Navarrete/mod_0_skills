@@ -1,0 +1,19 @@
+class: dinningArea
+
+class diningArea
+
+Attributes:
+
+availableTables : ["booth", "table", "bar seating", "booth", "table"]
+totalCapacity: 85
+currentCapacity: 35
+vacancy : True
+greeting: "Welcome to Snow White Restaurant"
+totalTables: 15
+
+
+Methods:
+welcomeGuest (Greeting = "welcome to Snow white Restaurant")
+seatGuests(50) (currentCapacity = 85)
+changeVacancy (if currentCapacity = 85  vacancy = False )
+occupyTables (availableTables = ["booth", "table", "booth"])
