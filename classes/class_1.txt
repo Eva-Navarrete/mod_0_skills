@@ -9,7 +9,7 @@ totalCapacity: (integer)
 currentCapacity: (integer)
 vacancy : (boolean)
 greeting (string)
-
+totalTables (integer)
 
 Methods:
 seatGuest(integer) (totalCapacity goes up by argument given)
