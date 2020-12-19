@@ -1,17 +1,20 @@
-Class: lunhMenu
+Class: LunchMenu
 
 Attributes:
-menuType: "Mexican "
-foodChoice: ["Enchiladas", "Tacos", "Camarones a la Diabla"]
-drinkMenu : ["Margarita", "Pina Colada", "Beer"]
-happyHour: 2:30 - 4:30
-happyHourSpecial : false
-time : 3:45
-priceTotal : 85.27
+type: "Mexican "
+foodChoices: ["Enchiladas", "Tacos", "Camarones a la Diabla"]
+drinks : ["Margarita", "Piña Colada", "Beer"]
+totalItems : 6
+happyHour: false
+happyHourLengthInHrs: 2
+
 
 
 Methods:
-orderFood (calls on and element with the foodChoice array foodChoice = "enchiladas")
-checkTimeForDrinkSpecial (time = 3:45 happyHourSpecial= True )
-orderFromHappyHourDrinkMenu (happyHourSpecial= True calls an element from drinkMenu = "Beer")
-askForBill (priceTotal = 85.27)
+
+changeHappyHour (checks current time using new Date, if time falls within a certain range, change happyHour = true )
+addEntree("Chicken Molé") (adds an element to foodChoices array, updates totalItems = 7)
+addDrinks("Tequila") (adds an element to drinks array, updates totalItems = 8)
+removeDrinks("Piña Colada") (removes an element from drinks array, updates totalItems = 7)
+removeEntree("Camarones a la Diabla") (removes an element from foodChoices array, updates totalItems = 6)
+changeHappyHourLength (checks weekday using Date.getDay() if Friday, Saturday, or Sunday then happyHourLengthInHrs = 3)

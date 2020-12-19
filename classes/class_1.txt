@@ -1,6 +1,4 @@
-class: dinningArea
-
-class diningArea
+Class DinningArea
 
 Attributes:
 
@@ -14,6 +12,6 @@ totalTables (integer)
 Methods:
 seatGuest(integer) (totalCapacity goes up by argument given)
 changeVacancy (if totalCapacity == currentCapacity vacancy = false )
-totalTables (counts length of availableTables array)
+countTables (counts length of availableTables array)
 occupyTable(string) (removes specific string from availableTables array)
 welcomeGuest (calls on greeting)

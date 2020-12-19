@@ -1,17 +1,23 @@
-Class: Menus
+Class: Menu
 
 Attributes:
-menuType: (string)
-foodChoice: (array)
-drinkMenu : (array)
-price : (float)
-happyHour: (time)
-happyHourSpecial :boolean
-time (date&time)
+type: (string)
+foodChoices: (array)
+drinks: (array)
+totalItems: (integer)
+happyHour: (boolean)
+happyHourLengthInHrs: (integer)
+
+
+
+
 
 
 Methods:
-orderFood (calls upon foodChoice array)
-checkTimeForDrinkSpecial (calls on the happy hour time)
-orderFromHappyHourDrinkMenu (happyHourSpecial= True)
-askForBill (gives us the price of the food ordered)
+
+changeHappyHour (checks for time, if time falls within a certain range, change happyHour to true)
+addEntree(string) (adds an element to foodChoices array, updates totalItems)
+addDrinks(string) (adds an element to drinks array, updates totalItems)
+removeDrinks(string) (removes an element from drinks, updates totalItems)
+removeEntree(string) (removes an element from foodChoices, updates totalItems)
+changeHappyHourLength (checks date if Friday, Saturday, or Sunday happyHourLengthInHrs increases by one hour)
