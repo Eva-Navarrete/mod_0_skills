@@ -15,5 +15,6 @@ totalTables: 15
 Methods:
 welcomeGuest (Greeting = "welcome to Snow white Restaurant")
 seatGuests(50) (currentCapacity = 85)
+countTables (availableTables.length)
 changeVacancy (if currentCapacity = 85  vacancy = False )
 occupyTables (availableTables = ["booth", "table", "booth"])
